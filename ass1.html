@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Assignment 1</title> 
+     <link rel="icon" href="anime.jpg" type="image/x-icon">
+     <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+        h1{
+            color: darkblue;
+        }
+        p{
+            color: darkred;
+        }
+        table{
+            margin-left:auto;
+            margin-right:auto;
+            width: 50%;
+        }
+        .completed{
+            background-color: green;
+            color: white;
+        }
+        .not-completed{
+            background-color: red;
+            color: white;
+        }
+     </style>   
+    </head>
+    <body>
+        <h1>Welcome to anime world</h1>
+        <marquee direction="right"><p>enjoy your onepiece episodes!</p></marquee>
+        <img src="anime.jpg" alt="sample image" width="400" height="400">
+        <br>
+        <a href="https://www.youtube.com/watch?v=OOCwpIZu5qU&list=PLeiv0YoqQzDmfdkCE0G3roA3WI3zivwpz" >watch here</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=OOCwpIZu5qU&list=PLeiv0YoqQzDmfdkCE0G3roA3WI3zivwpz" target="_blank">watch in new tab</a>
+        <br><br>
+        <button onclick="alert('Button clicked!')">click me</button>
+        <br><br>
+        <div>
+            <h2>One Piece Episodes</h2>
+        <table border="1">
+            <tr>
+                <th>Episode</th>
+                <th>Title</th>
+                <th>Rating</th>
+                <th>views</th>
+                <th>status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Romance Dawn</td>
+                <td>9.5</td>
+                <td>1.2M</td>
+                <td class="completed">completed</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Enter the Great Swordsman!</td>
+                <td>9.0</td>
+                <td>1.1M</td> 
+                <td class="not-completed">not completed</td>
+
+            </tr>
+            </div>
+
+
+    </body>
+</html>
